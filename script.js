@@ -28,7 +28,7 @@ function verificar(){
             }
             if(idadeFinal<65){
                 imagem.src='homen.png'
-                res.innerHTML=` ${genero} com a idade de ${idadeFinal} anos`
+                res.innerHTML=` homen com a idade de ${idadeFinal} anos`
             }
             if(idadeFinal>=65){
                 imagem.src='idoso.png'
@@ -46,7 +46,7 @@ function verificar(){
             }
             if(idadeFinal<65){
                 imagem.src='mulher.png'
-                res.innerHTML=` ${genero} com a idade de ${idadeFinal} anos`
+                res.innerHTML=` mulher com a idade de ${idadeFinal} anos`
             }
             if(idadeFinal>=65){
                 imagem.src='idosa.png'
